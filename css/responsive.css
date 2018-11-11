@@ -184,6 +184,31 @@
 }
 @media (max-width: 991px){
 	.sidebar-icon{display: block}
+	#about .part2 .about1 p{
+		font-size: 18px;
+		/* width: 100%; */
+		/* left: 0; */
+	}
+	#about .part2 .about1 h3{
+		font-size: 25px;
+	}
+}
+@media (max-width: 650px){
+	#about .part2 .about1 p{
+		font-size: 13.5px;
+	}
+	#about .part2 .about2 p{
+		font-size: 17.5px
+	}
+	#about .part2 p{
+		font-size: 20px;
+	}
+	#about .part2 h3{
+		font-size: 22px
+	}
+	#about .part2 .about4 p{
+		font-size: 17px;
+	}
 }
 /* Medium Screen */
 @media (min-width: 992px) and (max-width: 1199px) {

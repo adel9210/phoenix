@@ -2,22 +2,15 @@
 
 $(document).ready(function () {
 	"use strict";
-	
+	$('#myBtn').on('click', function(){
+		// window.scrollTo('.navbar')
+		$('html').animate({
+			scrollTop:0
+		}, 1000)
+	})
 	$('html').niceScroll();
 	
 	$('#license-year').html(new Date().getFullYear());
-	
-	
-	$('.sidebar-icon').on('click', function (e) {
-		e.preventDefault();
-		$('.sidebar').addClass('open');
-		if ($('.sidebar').hasClass('open')) {
-			$('.navbar-close-icon, .sidebar-menu-items>ul>li').on('click', function (e) {
-				e.preventDefault();
-				$('.sidebar').removeClass('open');
-			});
-		}
-	});
 	
 	$('.sidebar-icon').on('click', function(){
 		$('.sidebar').slideDown();
