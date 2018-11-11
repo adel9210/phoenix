@@ -310,7 +310,7 @@ body {
 }
 
 #about .part2 {
-    /*margin-bottom: 20px*/
+    margin-bottom: 20px
 }
 
 #about .part2 img {
@@ -412,29 +412,37 @@ body {
     line-height: 1.55em;
     font-weight: 300;
 }
-@media (min-width: 992px) {
-
-    .thumbnail-products a i {
-        font-size: 1.3em;
-        margin-right: 8px;
-    }
-    .product1 a:hover {
-        background-color: #40a496;
-        color: #000
-    }
-    .product2 a:hover {
-        background-color: #d83762;
-        color: #000
-    }
-    .product3 a:hover {
-        background-color: #5f2b71;
-        color: #000
-    }
-    .product4 a:hover {
-        background-color: #87b44c;
-        color: #000
-    }
+.thumbnail-products a{
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
 }
+.thumbnail-products a i {
+    font-size: 1.3em;
+    margin-right: 8px;
+}
+.product1 a:hover {
+    background-color: #40a496;
+    color: #000
+}
+.product2 a:hover {
+    background-color: #d83762;
+    color: #000
+}
+.product3 a:hover {
+    background-color: #5f2b71;
+    color: #000
+}
+.product4 a:hover {
+    background-color: #87b44c;
+    color: #000
+}
+
 
 .image {
     /*position: absolute;*/
@@ -764,7 +772,7 @@ footer .menu li {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
     list-style: none;
 }
-.footer .menu li.has-map{
+.has-map{
     margin-top: 20px;
 }
 footer .menu span {
