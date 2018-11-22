@@ -237,12 +237,15 @@ body {
 
 #info p {
     padding-left: 15px;
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
     background-color: #f5f5f5;
     border-left: 2px solid #000;
     line-height: 1.714285714;
     margin: 250px 25px 0;
+}
+.marginTop{
+    margin-top: 330px!important
 }
 
 #info-2 {
@@ -254,9 +257,9 @@ body {
 }
 
 #info-2 p {
-    position: absolute;
+    /* position: absolute; */
     z-index: 5;
-    top: 300px;
+    /* top: 300px; */
     text-align: center;
     line-height: 1.714285714;
     padding: 10px 0;
@@ -288,6 +291,23 @@ body {
     font-size: 20px
 }
 
+.textCenter{
+    float: left;
+    position: relative;
+}
+.padding0 {
+    padding: 0
+}
+.textCenter > div:first-child {
+    margin: 0!important;
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    width: 100%;
+}
+.textCenter > div:first-child p{
+    margin: 0!important;
+}
 
 /*
 ================ End info=========================
