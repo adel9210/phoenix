@@ -302,7 +302,7 @@ body {
     margin: 0!important;
     position: absolute;
     top: 50%;
-    z-index: 99;
+    z-index: 99999;
     width: 100%;
 }
 .textCenter > div:first-child p{
